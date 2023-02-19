@@ -1,0 +1,36 @@
+#blog .item .text h3{
+    color: #000;
+    padding:  0 0 25px 0;
+    margin: 0 0 25px 0;
+    font-weight: 400;
+    font-size: 45px;
+    font-style: italic;
+    position: relative;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+element.style {
+}
+#blog .item .in p {
+    color: #000;
+}
+p {
+    font-size: 16px;
+    color: #000;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+* {
+    outline: none !important;
+    font-family: "Playfair Display", serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}

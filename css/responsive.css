@@ -1,0 +1,94 @@
+/*------------------------------------------------------------------//
+//      RESPONSIVE SYSTEM                                                                                 //
+//------------------------------------------------------------------*/
+@media screen and (min-width: 1400px) {
+    /* PC 1400+  */ 
+    .menuAc {display: none !important;}
+  }
+  @media screen and (max-width: 1599px) and (min-width: 1369px) {
+    /* PC 1368-1600 */
+    .menuAc {display: none !important;}
+  }
+  @media screen and (max-width: 1368px) and (min-width: 1199px) {
+    /* PC - IPad PRO */
+    .menuAc {display: none !important;}
+    main #services .service .desc h3 {font-size: 30px;}
+    main #services .service .desc {padding: 25px 30px;}
+  }
+  @media screen and (max-width: 1198px) and (min-width: 992px) {
+    /* IPad PRO */
+    .menuAc, .mContact {display: block !important;}
+    main #services .service .desc {padding: 25px;}
+    .site-header .main .column {display: none;}
+    .site-header .main .column:nth-child(1) {display: block;}
+    main #blog .item .text {padding: 50px;}
+  }
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    /* TABLET 768+ ~ 960 */
+    .menuAc, .mContact {display: block !important;}
+    main #services .service .desc {padding: 25px;}
+    .site-header .main .column {display: none;}
+    .site-header .main .column:nth-child(1) {display: block;}
+    main #blog .item .text {padding: 50px;}
+    main #blog .item:nth-child(2) .column {order: 1;}
+    main #blog .item:nth-child(2) .column:nth-child(2) {order: 2;}
+    footer {margin-bottom: 44px;}
+  }
+  @media screen and (max-width: 767px) and (min-width: 640px) {
+    /* TABLET 640+ ~ 768 */
+    .menuAc, .mContact {display: block !important;}
+    main #services .service .desc {padding: 25px;}
+    .site-header .main .column {display: none;}
+    .site-header .main .column:nth-child(1) {display: block;}
+    main #blog .item .text {padding: 50px;}
+    main #blog .item:nth-child(2) .column {order: 1;}
+    main #blog .item:nth-child(2) .column:nth-child(2) {order: 2;}
+    footer .contact .contact-item a .desc {width: calc(100% - 70px);}
+    footer {margin-bottom: 44px;}
+  }
+  @media screen and (max-width: 639px) and (min-width: 480px) {
+    /* MOBILE 480+ ~ 640 */
+    .menuAc, .mContact {display: block !important;}
+    .row {margin: 0;}
+    p {font-size: 14px;}
+    main #services .service .desc {padding: 25px;}
+    .site-header .main .column {display: none;}
+    .site-header .main .column:nth-child(1) {display: block;}
+    main .title {font-size: 25px; line-height: 25px;}
+    main #about .text, main #comments .comment-list .comment p {padding: 0 25px;}
+    main #blog .item .text {padding: 50px;}
+    main #blog .item:nth-child(2) .column {order: 1;}
+    main #blog .item:nth-child(2) .column:nth-child(2) {order: 2;}
+    footer .contact .contact-item a .desc {width: calc(100% - 70px);}
+    footer {margin-bottom: 44px;}
+  }
+  @media screen and (max-width: 479px) and (min-width: 320px) {
+    /* MOBILE 320+ ~ 480 */
+    .menuAc, .mContact {display: block !important;}
+    .row {margin: 0;}
+    p {font-size: 11px !important;}
+    main #slider .items .slick-arrow {width: 40px; height: 40px;}
+    main #slider .items .slick-arrow img {width: 80%;}
+    main #services .service .desc {padding: 15px;width: 100%;position: relative;background-color: rgb(154, 37, 143);bottom: 0;left: 0 !important;}
+    .site-header .main .logo {width: 175px;}
+    .site-header .main .column {display: none;}
+    .site-header .main .column:nth-child(1) {display: block;}
+    main .title {font-size: 18px; line-height: 18px;}
+    main .title span:before {width: 100px; left: -115px;}
+    main .title span:after {width: 100px; right: -115px;}
+    main #about {padding: 25px 0;}
+    main #about .text, main #comments .comment-list .comment p {padding: 0 25px;}
+    main #about .text .more {}
+    main #blog .item .text {padding: 50px;}
+    main #blog .item:nth-child(2) .column {order: 1;}
+    main #blog .item:nth-child(2) .column:nth-child(2) {order: 2;}
+    main #services .column {max-height: fit-content;}
+    main #services .service {height: auto;}
+    main #services .service figure a img {width: 100% !important; height: auto !important;}
+    main #services .service .desc h3 {font-size: 18px;}
+    main #blog .item .text h3 {font-size: 22.5px;}
+    footer .contact .contact-item a .desc {width: calc(100% - 70px);}
+    footer .contact .contact-item a {padding: 15px 0;}
+    footer .contact .contact-item a {padding: 0;}
+    footer {margin-bottom: 44px;}
+  }
