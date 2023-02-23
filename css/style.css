@@ -381,7 +381,6 @@ main {
     font-size: 39px;
     line-height: 39px;
     color: #FFF;
-    margin-bottom: 45px;
     font-style: italic; }
     main .title span {
       display: block;
@@ -415,7 +414,7 @@ main {
           background-color: #9a258f;
           color: #FFF;
           text-align: center;
-          padding: 75px 0;
+         
           }
           main .head-title h1 {
             color: #FFF;
@@ -452,12 +451,12 @@ main {
     padding: 80px 0;
     background-color: #353645; }
     main #about .text {
-      padding: 0 85px;
+
       color: #FFF; }
       main #about .text .more {
         font-size: 16px;
         line-height: 45px;
-        padding: 0 55px;
+        
         margin-top: 40px;
         background: transparent;
         border: 1px solid #FFF;
@@ -618,7 +617,7 @@ main {
       color: #FFF;
       font-style: italic;
       position: relative;
-      margin: 0 0 25px 0;
+      margin: 0 0 0 0;
       padding: 0 0 25px 0;
       font-weight: 400; }
       main #blog .item .text h3:after {
